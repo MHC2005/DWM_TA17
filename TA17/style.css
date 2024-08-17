@@ -1,0 +1,49 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(109, 31, 61);
+}
+
+
+.tarjeta {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(180, 113, 139);
+    text-align: center;
+}
+
+
+.tarjeta img {
+    position: absolute;
+    top: -30px; 
+    left: 20px; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid rgb(180, 113, 139); 
+}
+
+
+.tarjeta h2, .tarjeta p, .tarjeta button {
+    margin-top: 70px;
+}
+
+.tarjeta button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5d1a3f;
+    color: white;
+    cursor: pointer;
+}
+
+.tarjeta button:hover {
+    background-color: #7d2d5c;
+}
